@@ -1,0 +1,10 @@
+version: '4.11.1'
+services:
+  web1:
+    build: ./web1
+    ports:
+      - "8079:80"
+  web2:
+    build: ./web2
+    ports:
+      - "8080:80"
