@@ -24,4 +24,4 @@ stages:
       displayName: Container registry login
       inputs:
         containerregistrytype: Container Registry
-        dockerRegistryEndpoint: Contoso
+        dockerRegistryEndpoint: Docker
